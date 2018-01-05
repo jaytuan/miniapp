@@ -34,22 +34,12 @@
         "pages/scroll-view/scroll-view",
         "pages/swiper/swiper",
         "pages/text/text",
-        "pages/icon/icon",
         "pages/progress/progress",
-        "pages/button/button",
-        "pages/checkbox/checkbox",
         "pages/form/form",
-        "pages/input/input",
-        "pages/label/label",
-        "pages/picker/picker",
-        "pages/radio/radio",
-        "pages/slider/slider",
         "pages/switch/switch",
         "pages/textarea/textarea",
         "pages/navigator/navigator",
-        "pages/navigator/navigate",
         "pages/navigator/redirect",
-        "pages/image/image",
         "pages/audio/audio",
         "pages/video/video",
         "pages/map/map",
@@ -92,9 +82,7 @@
         "pages/background-audio/background-audio",
         "pages/video/video",
         "pages/get-location/get-location",
-        "pages/open-location/open-location",
-        "pages/choose-location/choose-location",
-        "pages/storage/storage"
+        "pages/open-location/open-location"
       ]
     }
   ],
