@@ -7,7 +7,10 @@ Page({
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    bgs:['#ff5346', '#f34567'],
+    listData: [],
+    bgIndex: 0
   },
   //事件处理函数
   bindViewTap: function() {
@@ -16,6 +19,14 @@ Page({
     })
   },
   onLoad: function () {
+    let pageData = []
+    pageData.push({
+      backGround: this.data.bgs[0]
+    })
+    this.setData({
+      listData: pageData,
+      bgIndex: ++this.data.bgIndex
+    })
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,
@@ -42,6 +53,17 @@ Page({
         }
       })
     }
+  },
+  onReachBottom () {
+    let pageData = this.data.listData;
+    let bgIndexTemp = this.data.bgIndex % 5
+    pageData.push({
+      backGround: this.data.bgs[bgIndexTemp]
+    })
+    this.setData({
+      listData: pageData,
+      bgIndex: ++this.data.bgIndex
+    })
   },
   getUserInfo: function(e) {
     console.log(e)
