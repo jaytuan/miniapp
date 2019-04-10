@@ -1,0 +1,10 @@
+<view class="container">
+  <view class="oh bg_f top_mode">
+    <input type="text" placeholder="投票标题" class="mg_t16 col_333 font_36 title" />
+    <input type="text" placeholder="补充描述（选填）" placeholder-class="col_aaa font_28" class="mg_t16 col_666 font_28 subscribe" />
+    <view class="mg_t16">
+      <image class="del_option" src="./pics/del_option.png"></image><input type="text" placeholder="选项" />
+      <image class="del_option" src="./pics/del_option.png"></image><input type="text" placeholder="选项" />
+    </view>
+  </view>
+</view>

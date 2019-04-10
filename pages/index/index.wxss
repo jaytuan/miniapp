@@ -2,8 +2,7 @@
 page {
   background: #f3f4f6;
 }
-.vote_item {
-}
 .vote_image {
-	width: 400rpx;
+	width: 320rpx;
 }
+.index_btn {background: #3a6ce9;}

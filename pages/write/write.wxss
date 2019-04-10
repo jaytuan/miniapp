@@ -1,0 +1,17 @@
+/**index.wxss**/
+page {
+  background: #f3f4f6;
+}
+.top_mode {
+	padding: 0 32rpx;
+}
+.title {
+	height: 80rpx;
+	vertical-align: bottom;
+	border-bottom: solid 1rpx #eaeaea;
+}
+.subscribe {
+	height: 80rpx;
+	border-bottom: solid 1rpx #eaeaea;
+}
+.del_option { width: 50rpx;height: 50rpx; }
