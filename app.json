@@ -4,14 +4,21 @@
     "pages/user/user"
   ],
   "tabBar": {
+    "color": "#afafaf",
+    "selectedColor": "#1a6ef3",
+    "backgroundColor": "#fff",
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "新增"
+        "text": "新增",
+        "iconPath": "./pics/add_new_grey.png",
+        "selectedIconPath": "./pics/add_new.png"
       },
       {
         "pagePath": "pages/user/user",
-        "text": "我的"
+        "text": "我的",
+        "iconPath": "./pics/user_grey.png",
+        "selectedIconPath": "./pics/user.png"
       }
     ]
   },
