@@ -1,1 +1,12 @@
 /**app.wxss**/
+/*common css*/
+.db{display: block;}
+
+.mg_0_auto{margin: 0 auto;}
+
+.pd_32_0{padding: 32rpx 0;}
+
+.bor_r8{border-radius: 8rpx;}
+
+.bg_f{background: #fff;}
+/*common css*/

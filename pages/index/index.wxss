@@ -2,3 +2,8 @@
 page {
   background: #f3f4f6;
 }
+.vote_item {
+}
+.vote_image {
+	width: 400rpx;
+}
