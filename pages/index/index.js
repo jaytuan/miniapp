@@ -1,4 +1,6 @@
 //index.js
+
+// 测试git命令行
 //获取应用实例
 const app = getApp()
 
