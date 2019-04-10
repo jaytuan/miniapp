@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="bg_f pd_32_0 vote_item">
+    <image src="./pics/radio.png" mode="widthFix" class="db mg_0_auto vote_image"></image>
+    <button class="" open-type="getUserInfo" bindgetuserinfo="singleVote">单选投票</button>
+  </view>
+</view>
