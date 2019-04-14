@@ -10,12 +10,15 @@
 .align_center {display: flex;align-items: center;}
 .justify_center {display: flex;justify-content: center;}
 .db{display: block;}
-
+.d_i_b{display: inline-block;}
 .oh{overflow: hidden;}
 
 .mg_0_auto{margin: 0 auto;}
 .mg_t16{margin-top: 16rpx;}
 .mg_t32{margin-top: 32rpx;}
+
+.mg_r16{margin-right: 16rpx;}
+.mg_r24{margin-right: 24rpx;}
 
 .pd_48_0{padding: 48rpx 0;}
 
@@ -27,6 +30,7 @@
 .col_aaa{color: #aaa;}
 .col_fff{color: #fff;}
 
+.font_0{font-size: 0;}
 .font_24{font-size: 24rpx;}
 .font_28{font-size: 28rpx;}
 .font_36{font-size: 36rpx;}

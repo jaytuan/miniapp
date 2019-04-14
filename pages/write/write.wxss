@@ -14,4 +14,5 @@ page {
 	height: 80rpx;
 	border-bottom: solid 1rpx #eaeaea;
 }
-.del_option { width: 50rpx;height: 50rpx; }
+.del_option { width: 40rpx;height: 40rpx; }
+.options_item{width: 100%; border-bottom: solid 1rpx #eaeaea;}
