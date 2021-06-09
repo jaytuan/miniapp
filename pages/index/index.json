@@ -1,4 +1,1 @@
-{
-  "navigationBarTitleText": "投票类别",
-  "backgroundColor": "#f3f4f6"
-}
+{"navigationBarTitleText":"俄罗斯方块","usingComponents":{"custom-wrapper":"../../custom-wrapper","comp":"../../comp"}}

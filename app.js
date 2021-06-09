@@ -1,14 +1,1 @@
-//app.js
-App({
-  onLaunch: function () {
-    // 登录
-    wx.login({
-      success: res => {
-        // 发送 res.code 到后台换取 openId, sessionKey, unionId
-      }
-    })
-  },
-  globalData: {
-    userInfo: null
-  }
-})
+require("./runtime"),require("./common"),require("./vendors"),require("./taro"),(wx["webpackJsonp"]=wx["webpackJsonp"]||[]).push([[4],{105:function(e,n,t){"use strict";t.r(n);t(64);var i=t(7),o=t(19),r=t(9),a=t(10),c=t(12),u=t(13),p=t(5),d=(t(67),t(40)),s=t(8),f=(t(2),t(18)),l=t(0);f["a"].subscribeRecord(s["a"]);var b=function(e){Object(c["a"])(t,e);var n=Object(u["a"])(t);function t(){return Object(r["a"])(this,t),n.apply(this,arguments)}return Object(a["a"])(t,[{key:"componentDidMount",value:function(){}},{key:"componentDidShow",value:function(){}},{key:"componentDidHide",value:function(){}},{key:"componentDidCatchError",value:function(){}},{key:"render",value:function(){return Object(l["jsx"])(d["a"],{store:s["a"],children:this.props.children})}}]),t}(p["Component"]),v=b,h=t(32),g={pages:["pages/index/index"],window:{backgroundTextStyle:"light",navigationBarBackgroundColor:"#fff",navigationBarTitleText:"WeChat",navigationBarTextStyle:"black"}};i["window"].__taroAppConfig=g;App(Object(i["createReactApp"])(v,p,h["a"],g));Object(o["initPxTransform"])({designWidth:750,deviceRatio:{640:1.17,750:1,828:.905}})},67:function(e,n,t){}},[[105,0,1,2,3]]]);

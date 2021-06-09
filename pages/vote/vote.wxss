@@ -1,0 +1,8 @@
+/**index.wxss**/
+page {
+  background: #f3f4f6;
+}
+.vote_image {
+	width: 320rpx;
+}
+.index_btn {background: #3a6ce9;}
