@@ -1,9 +1,6 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/vote/vote",
-    "pages/user/user",
-    "pages/write/write"
+    "pages/index/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
