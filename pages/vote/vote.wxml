@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="bg_f pd_48_0">
+    <image src="./pics/radio.png" mode="widthFix" class="db mg_0_auto vote_image"></image>
+    <button class="common_btn mg_t32 col_fff index_btn" hover-class="none" open-type="getUserInfo" bindgetuserinfo="vote" data-source="single">单选</button>
+  </view>
+  <view class="bg_f mg_t32 pd_48_0">
+    <image src="./pics/checkbox.png" mode="widthFix" class="db mg_0_auto vote_image"></image>
+    <button class="common_btn mg_t32 col_fff index_btn" hover-class="none" open-type="getUserInfo" bindgetuserinfo="vote" data-source="multipe">多选</button>
+  </view>
+  <!-- <view class="bg_f mg_t32 pd_48_0">
+    <image src="./pics/checkbox.png" mode="widthFix" class="db mg_0_auto vote_image"></image>
+    <button class="common_btn mg_t32 col_fff index_btn" hover-class="none" open-type="getUserInfo" bindgetuserinfo="vote" data-source="eat">吃啥不愁</button>
+  </view> -->
+</view>

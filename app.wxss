@@ -1,5 +1,14 @@
 /**app.wxss**/
-
+page, view, text, swiper, swiper-item, image, navigator{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+}
 /*component common css*/
 .common_btn{display: flex;justify-content: center;align-items: center; width: 588rpx;height: 88rpx;margin: 0 auto;padding: 0;border: none;border-radius: 8rp;font-family: PingFangSC-Medium;}
 /*component common css*/
